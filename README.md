@@ -9,6 +9,10 @@ Diseño limpio y amigable, ideal para cualquier tipo de dispositivo.
 
 Formulario al final para que los usuarios puedan dejar sus opiniones.
 
+Ver la página en línea
+
+La página está alojada en GitHub Pages y puedes acceder a ella aquí:
+https://williamrivasr.github.io/Cat-page/
 
 Tecnologías utilizadas
 
