@@ -1,0 +1,132 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fef9ef; /* Fondo cálido y suave */
+    color: #4a4a4a; /* Texto legible */
+    text-align: center;
+}
+
+/* Encabezado principal */
+h1 {
+    font-size: 3rem;
+    color: #ff6f61; /* Color llamativo para el título */
+    margin-top: 20px;
+    font-family: 'Caveat', cursive; /* Fuente manuscrita */
+}
+
+/* Sección */
+main {
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 800px;
+}
+
+/* Subtítulos */
+h2 {
+    font-size: 2rem;
+    color: #ff8568;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 1.5rem;
+    color: #ff8568;
+    margin-top: 20px;
+}
+
+/* Listas */
+ul, ol {
+    text-align: left;
+    margin: 0 auto 20px auto;
+    padding: 0;
+    max-width: 600px;
+}
+
+ul li, ol li {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+
+/* Imagenes */
+img {
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px 0;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Formularios */
+form {
+    background-color: #fff3e8;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 600px;
+    text-align: left;
+}
+
+fieldset {
+    border: none;
+    margin-bottom: 15px;
+}
+
+legend {
+    font-size: 1.2rem;
+    color: #ff6f61;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Inputs */
+input[type="text"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+/* Botón */
+button {
+    background-color: #ff8568;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+button:hover {
+    background-color: #ff6f61;
+}
+
+/* Enlaces */
+a {
+    color: #ff8568;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Pie de página */
+footer {
+    background-color: #fff3e8;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 0.9rem;
+    color: #4a4a4a;
+    border-top: 1px solid #ffd5c2;
+}
